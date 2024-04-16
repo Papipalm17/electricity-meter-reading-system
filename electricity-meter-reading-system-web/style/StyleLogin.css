@@ -1,0 +1,64 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+    height: 100%;
+
+}
+
+.background-radial-gradient {
+    background-color: hsl(21, 78%, 71%);
+    background-image: radial-gradient(700px circle at 0% 0%,
+            hsl(8, 51%, 56%) 20%,
+            hsl(0, 27%, 60%) 35%,
+            hsl(0, 35%, 66%) 60%,
+            hsl(9, 54%, 74%) 70%,
+            transparent 100%),
+        radial-gradient(1300px circle at 100% 100%,
+            hsl(8, 51%, 56%) 20%,
+            hsl(0, 27%, 60%) 35%,
+            hsl(0, 35%, 66%) 60%,
+            hsl(9, 54%, 74%) 70%,
+            transparent 100%);
+}
+
+.bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+}
+
+.div_input {
+    margin-top: 30px;
+}
+
+.div_input label {
+    font-size: 20px;
+    color: dimgray;
+}
+
+.div_input input {
+    height: 45px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#btn_login {
+    margin-top: 50px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: #19394B;
+}
+
+form {
+    padding: 20px;
+}
+
+#span-1 {
+    font-size: 108px;
+    color: #19394B;
+    font-weight: bolder;
+}
+
+#span-2 {
+    font-size: 24px;
+    color: #ffffff;
+}

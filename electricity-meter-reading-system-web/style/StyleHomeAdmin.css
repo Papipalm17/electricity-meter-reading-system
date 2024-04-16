@@ -1,0 +1,240 @@
+
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+
+.all-card {
+    display: flex;
+    margin: 40px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.all-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 5%;
+    width: 90%;
+    margin: 0 1.5%;
+}   
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    text-align: center;
+    border: 3px solid rgb(146, 146, 146) !important;
+    border-radius: 20px !important;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    background-color: rgb(248, 246, 246) !important;
+    min-width: 250px !important;
+    /* flex : 0 22% */
+}
+
+#img-user {
+    width: 100px;
+    height: 100px;
+}
+
+#img-delete {
+    width: 25px;
+    height: 25px;
+    opacity: 0.7;
+}
+
+#img-dashboard {
+    width: 25px;
+    height: 25px;
+    opacity: 0.9;
+}
+
+h4 {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    margin-top: 10px !important;
+    color: #4188c5 !important;
+}
+
+h5 {
+    font-size: 14px !important;
+}
+
+#meter-id {
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+#btn-delete , #btn-dashboard {
+    border: none;
+    background-color: rgb(248, 246, 246);
+}
+
+.all-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px 5%;
+}
+
+.all-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.bg-elec {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+#box-day {
+    background-color: #20639b;
+}
+
+#box-month {
+    background-color: #fcd753;
+}
+
+#box-cost {
+    background-color: #ee553b;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+select.form-select {
+    font-size: 18px;
+    border-radius: 5px;
+    width: 180px;
+    margin: 20px 0;
+}
+
+.all-unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+#num-unit-day {
+    font-size: 50px;
+    font-weight: bolder;
+    width: 170px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#num-unit-month {
+    font-size: 50px;
+    font-weight: bolder;
+    width: 170px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.all-elec-cost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-elec-unit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+#num-cost {
+    font-size: 50px;
+    font-weight: bolder;
+    width: 170px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#num-unit {
+    font-weight: bolder;
+    text-align: center;
+    overflow: hidden;
+    text-align: right;
+}
+
+#ChartDayly , #ChartWeekly , #ChartMonth {
+    max-height: 400px !important;
+    margin-bottom: 50px !important;
+}
+
+/* Dashboard Modal */
+.modal-dialog-dashboard {
+    max-width: 80%;
+}
+
+.dashboard-modal-header {
+    margin: 10px 0 0 0;
+    display: flex;
+}
+
+.dashboard-modal-header img {
+    width: 20px;
+    height: 20px;
+}
+
+/* .dashboard-modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.dashboard-modal-body h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dashboard-modal-body p {
+    font-size: 14px;
+    text-align: center;
+    color: #d75056;
+}
+
+.detail-dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.detail-dashboard input {
+    width: 250px;
+    height: 40px;
+    border: 2px solid #4e4e4e;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+.detail-dashboard button {
+    color: white;
+    border: white;
+    background-color: rgb(74, 171, 111);
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+} */

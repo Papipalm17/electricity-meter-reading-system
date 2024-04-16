@@ -1,0 +1,179 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+
+.head-table {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#head-btn {
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #d75056;
+    color: white;
+    width: 260px;
+    height: 55px;
+    border-radius: 20px;
+    border: none;
+}
+
+.div-data {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px !important;
+}
+
+.table-data {
+    white-space: nowrap;
+    margin-top: 20px;
+}
+
+.table-bordered {
+    border: 2px solid gray !important;
+}
+
+tr {
+    height: 50px;
+    white-space: nowrap;
+}
+
+th {
+    border: 2px solid gray !important;
+    white-space: nowrap;
+}
+
+thead {
+    font-size: 18px !important;
+}
+
+tbody {
+    font-size: 15px !important;
+    font-weight: lighter !important;
+}
+
+.status {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    margin: auto auto;
+}
+
+#btn-report {
+    border: none;
+    background-color: none;
+    border-radius: 20px;
+    position: absolute;
+    display: flex; 
+    justify-content: center; 
+}
+
+#img-report {
+    width: 24px;
+    height: 24px;
+    opacity: 0.9;
+    position: absolute;
+    top: 4px;
+}
+
+.nomal-status {
+    background-color: rgb(74, 171, 111);
+    position: relative;
+    display: flex;
+}
+
+.report-status {
+    background-color: rgb(189, 61, 61);
+    position: relative;
+    display: flex;
+}
+
+/* Report Modal */
+.modal-dialog-report {
+    max-width: 300px;
+}
+
+.report-modal-header {
+    margin: 10px 0 0 0;
+    display: flex;
+}
+
+.report-modal-header img {
+    width: 20px;
+    height: 20px;
+}
+
+.report-modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.report-modal-body h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.report-modal-body p {
+    font-size: 14px;
+    text-align: center;
+    color: #d75056;
+}
+
+.detail-report {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.detail-report input {
+    width: 250px;
+    height: 40px;
+    border: 2px solid #4e4e4e;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+.detail-report button {
+    color: white;
+    border: white;
+    background-color: rgb(74, 171, 111);
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+/* Data table */
+
+.dataTables_info {
+    float: left;
+    font-size: 14px;
+}
+
+.dataTables_paginate {
+    float: right;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.paginate_button {
+    margin-right: 10px;
+    cursor: default;
+}
+
+.dataTables_filter input[type="search"] {
+    margin-left: 10px;
+    font-size: 14px;
+}
+/* End Data table */

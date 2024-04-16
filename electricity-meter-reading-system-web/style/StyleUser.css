@@ -1,0 +1,90 @@
+body {
+    font-family: 'Sarabun', sans-serif;   
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#head-btn {
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #d75056;
+    color: white;
+    width: 180px;
+    height: 55px;
+    border-radius: 20px;
+    border: none;
+}
+
+.form {
+    display: flex;
+    width: 800px;
+    height: 480px;
+    margin: auto auto;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    padding: 30px 60px;
+    justify-content: center;
+    
+}
+
+.row1 , .row2 , .row3 , .row4 ,.row5 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 10px;
+}
+
+.box-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-input label {
+    font-size: 18px;
+}
+
+.box-input input {
+    width: 260px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-top: 2px;
+    border: 3px rgb(54, 54, 54);
+    border-radius: 10px;
+}
+
+.box-input select {
+    width: 260px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-top: 2px;
+    border: 3px rgb(54, 54, 54);
+    border-radius: 10px;
+}
+
+.box-input option {
+    font-size: 14px;
+}
+
+.row5 {
+    align-items: flex-end;
+    justify-content: space-between !important;
+}
+
+.save-btn {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #45a763;
+    width: 120px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+}
+

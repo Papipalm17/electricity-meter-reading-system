@@ -1,0 +1,110 @@
+
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+
+.all-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px 5%;
+}
+
+.all-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20%;
+}
+
+.bg-elec {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+#box-day {
+    background-color: #20639b;
+}
+
+#box-month {
+    background-color: #fcd753;
+}
+
+#box-cost {
+    background-color: #ee553b;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+select.form-select {
+    font-size: 18px;
+    border-radius: 5px;
+    width: 180px;
+    margin: 20px 0;
+}
+
+.all-unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+#num-unit-day {
+    font-size: 50px;
+    font-weight: bolder;
+    width: 170px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#num-unit-month {
+    font-size: 50px;
+    font-weight: bolder;
+    width: 170px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.all-elec-cost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-elec-unit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+#num-cost {
+    font-size: 50px;
+    font-weight: bolder;
+    width: 170px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#num-unit {
+    font-weight: bolder;
+    text-align: center;
+    overflow: hidden;
+    text-align: right;
+}
+
+#ChartDayly , #ChartWeekly , #ChartMonth {
+    max-height: 400px !important;
+    margin-bottom: 50px !important;
+}
